@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {
   SiJavascript, SiReact, SiDotnet, SiNodedotjs,
-  SiMysql, SiGit,SiFigma
+  SiMysql, SiGit, SiFigma, SiHtml5, SiCss3
 } from 'react-icons/si';
 import { FaDatabase, FaCode } from 'react-icons/fa'; // íconos alternativos
 
@@ -17,7 +17,13 @@ const Habilidades = () => {
   const lenguajes = [
     { nombre: 'JavaScript', icono: <SiJavascript />, nivel: 35 },
     { nombre: 'C#', icono: <SiDotnet />, nivel: 50 }
+    
   ];
+  const marcacionYEstilo = [
+  { nombre: 'HTML5', icono: <SiHtml5 />, nivel: 25 },
+  { nombre: 'CSS3', icono: <SiCss3 />, nivel: 20 }
+];
+
 
   const tecnologias = [
     { nombre: 'React', icono: <SiReact />, nivel: 20 },
@@ -68,6 +74,12 @@ const Habilidades = () => {
         <h4>Lenguajes de programación</h4>
         {renderSkills(lenguajes)}
       </div>
+
+      <div className="mb-4">
+        <h4>Lenguajes de Marcado y Estilo</h4>
+        {renderSkills(marcacionYEstilo)}
+      </div>
+
 
       <div className="mb-4">
         <h4>Tecnologías</h4>
