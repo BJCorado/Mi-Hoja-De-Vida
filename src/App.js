@@ -2,25 +2,37 @@ import React from 'react';
 import Header from './components/Header';
 import Formacion from './components/Formacion';
 import Habilidades from './components/Habilidades';
-
+import './index.css';
 function App() {
   return (
-    <div>
-      <section className="bg-white">
-        <Header />
-      </section>
+    <>
+      {/* Fondo con blur */}
+      <div id="blur-background"></div>
 
-      <section className="bg-light py-5">
-        <Formacion />
-      </section>
+      <div className="content-wrapper">
+        <section className="seccion">
+          <div className="container">
+            <Header />
+          </div>
+        </section>
 
-      <section className="bg-light py-5">
-        <Habilidades />
-      </section>
-    </div>
+        <section className="seccion">
+          <div className="container">
+            <Formacion />
+          </div>
+        </section>
+
+        <section className="seccion">
+          <div className="container">
+            <Habilidades />
+          </div>
+        </section>
+      </div>
+    </>
   );
 }
 
 export default App;
+
 
 
