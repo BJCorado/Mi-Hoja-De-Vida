@@ -1,6 +1,8 @@
 body {
-  background-color: #f8f9fa;
-  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: sans-serif;
 }
 
 h1, h2,h4 {
@@ -38,11 +40,14 @@ h1, h2,h4 {
   z-index: 1;
 }
 
-/* Secciones con fondo translúcido */
-.seccion {
-  background-color: rgba(255, 255, 255, 0.75);
-  padding: 2rem 0;
-  border-radius: 12px;
+/* Secciones con fondo gris translúcido tipo vidrio */
+.section {
+  background-color: rgba(80, 80, 80, 0.4); /* Gris translúcido */
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
   margin-bottom: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: none;
 }
