@@ -42,7 +42,7 @@ const Habilidades = () => {
   const renderSkills = (skills) => (
     <>
       {skills.map((skill, index) => (
-        <div key={index} className="mb-3">
+         <div key={index} className="mb-3">
           <label className="form-label fw-bold d-flex align-items-center gap-2">
             <span style={{ fontSize: '1.4em' }}>{skill.icono}</span> {skill.nombre}
           </label>
@@ -67,28 +67,29 @@ const Habilidades = () => {
   );
 
   return (
-    <section className="container my-5 p-4 border rounded bg-white shadow-sm">
-      <h2 className="text-center mb-4">Habilidades Técnicas</h2>
+    <section className="section">
+      <div className="container p-5 text-white">
+        <h2 className="text-center mb-4">Habilidades Técnicas</h2>
 
-      <div className="mb-4">
-        <h4>Lenguajes de programación</h4>
-        {renderSkills(lenguajes)}
-      </div>
+        <div className="mb-4">
+          <h4>Lenguajes de programación</h4>
+          {renderSkills(lenguajes)}
+        </div>
 
-      <div className="mb-4">
-        <h4>Lenguajes de Marcado y Estilo</h4>
-        {renderSkills(marcacionYEstilo)}
-      </div>
+        <div className="mb-4">
+          <h4>Lenguajes de Marcado y Estilo</h4>
+          {renderSkills(marcacionYEstilo)}
+        </div>
 
+        <div className="mb-4">
+          <h4>Tecnologías</h4>
+          {renderSkills(tecnologias)}
+        </div>
 
-      <div className="mb-4">
-        <h4>Tecnologías</h4>
-        {renderSkills(tecnologias)}
-      </div>
-
-      <div className="mb-4">
-        <h4>Herramientas o software</h4>
-        {renderSkills(herramientas)}
+        <div className="mb-4">
+          <h4>Herramientas o software</h4>
+          {renderSkills(herramientas)}
+        </div>
       </div>
     </section>
   );
