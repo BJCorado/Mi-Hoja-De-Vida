@@ -3,34 +3,36 @@ import Header from './components/Header';
 import Formacion from './components/Formacion';
 import Habilidades from './components/Habilidades';
 import Contacto from './components/Contacto';
+import NavigationBar from './components/Navbar';
 import './index.css';
 
 function App() {
   return (
     <>
+      <NavigationBar />
       {/* Fondo con blur */}
       <div id="blur-background"></div>
 
       <div className="content-wrapper">
-        <section className="seccion">
+        <section id="inicio" className="seccion">
           <div className="container">
             <Header />
           </div>
         </section>
 
-        <section className="seccion">
+        <section id="formacion" className="seccion">
           <div className="container">
             <Formacion />
           </div>
         </section>
 
-        <section className="seccion">
+        <section id="habilidades" className="seccion">
           <div className="container">
             <Habilidades />
           </div>
         </section>
 
-        <section className="seccion">
+        <section id="contacto" className="seccion">
           <div className="container">
             <Contacto />
           </div>
