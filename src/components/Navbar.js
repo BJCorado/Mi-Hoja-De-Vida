@@ -4,9 +4,13 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="lg" bg="dark" variant="dark" fixed="top" className="shadow">
+    <Navbar
+      expand="lg"
+      fixed="top"
+      className="custom-navbar shadow"
+    >
       <Container>
-        <Navbar.Brand href="#inicio" className="d-flex align-items-center gap-2">
+        <Navbar.Brand href="#inicio" className="d-flex align-items-center gap-2 text-white">
           <GiHamburgerMenu /> Mi Hoja De Vida
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
