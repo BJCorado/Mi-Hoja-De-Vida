@@ -16,31 +16,31 @@ function App() {
       
       <div className="content-wrapper">
         <FadeInSection>
-        <section id="inicio" className="seccion">
-          <div className="container">
+        <section id="inicio">
+          <div className="container seccion">
             <Header />
           </div>
         </section>
         </FadeInSection>
         <FadeInSection>
-        <section id="formacion" className="seccion">
-          <div className="container">
+        <section id="formacion" >
+          <div className="container seccion">
             <Formacion />
           </div>
         </section>
         </FadeInSection>
         
         <FadeInSection>
-        <section id="habilidades" className="seccion">
-          <div className="container">
+        <section id="habilidades">
+          <div className="container seccion">
             <Habilidades />
           </div>
         </section>
         </FadeInSection>
         
         <FadeInSection>
-        <section id="contacto" className="seccion">
-          <div className="container">
+        <section id="contacto">
+          <div className="container seccion">
             <Contacto />
           </div>
         </section>
