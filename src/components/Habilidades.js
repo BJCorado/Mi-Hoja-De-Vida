@@ -1,29 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {
   SiJavascript, SiReact, SiDotnet, SiNodedotjs,
   SiMysql, SiGit, SiFigma, SiHtml5, SiCss3
 } from 'react-icons/si';
-import { FaDatabase, FaCode } from 'react-icons/fa'; // íconos alternativos
-
+import { FaDatabase, FaCode } from 'react-icons/fa';
+import { useInView } from 'react-intersection-observer'; // import para la transsicion
 
 const Habilidades = () => {
-  const [animacion, setAnimacion] = useState(false);
-
-  useEffect(() => {
-    // Simula carga inicial
-    setTimeout(() => setAnimacion(true), 300);
-  }, []);
+  const { ref, inView } = useInView({
+    triggerOnce: false, //false para que se active cada vez que el componente entra en vista
+    threshold: 0.2
+  });
 
   const lenguajes = [
     { nombre: 'JavaScript', icono: <SiJavascript />, nivel: 35 },
     { nombre: 'C#', icono: <SiDotnet />, nivel: 50 }
-    
   ];
-  const marcacionYEstilo = [
-  { nombre: 'HTML5', icono: <SiHtml5 />, nivel: 25 },
-  { nombre: 'CSS3', icono: <SiCss3 />, nivel: 20 }
-];
 
+  const marcacionYEstilo = [
+    { nombre: 'HTML5', icono: <SiHtml5 />, nivel: 25 },
+    { nombre: 'CSS3', icono: <SiCss3 />, nivel: 20 }
+  ];
 
   const tecnologias = [
     { nombre: 'React', icono: <SiReact />, nivel: 20 },
@@ -42,7 +39,7 @@ const Habilidades = () => {
   const renderSkills = (skills) => (
     <>
       {skills.map((skill, index) => (
-         <div key={index} className="mb-3">
+        <div key={index} className="mb-3">
           <label className="form-label fw-bold d-flex align-items-center gap-2">
             <span style={{ fontSize: '1.4em' }}>{skill.icono}</span> {skill.nombre}
           </label>
@@ -51,14 +48,14 @@ const Habilidades = () => {
               className="progress-bar"
               role="progressbar"
               style={{
-                width: animacion ? `${skill.nivel}%` : '0%',
+                width: inView ? `${skill.nivel}%` : '0%',
                 transition: 'width 1s ease-in-out'
               }}
               aria-valuenow={skill.nivel}
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              {animacion ? `${skill.nivel}%` : ''}
+              {/* Porcentaje removido */}
             </div>
           </div>
         </div>
@@ -67,7 +64,7 @@ const Habilidades = () => {
   );
 
   return (
-    <section className="section">
+    <section className="section" ref={ref}>
       <div className="container p-5 text-white">
         <h2 className="text-center mb-4">Habilidades Técnicas</h2>
 
@@ -96,3 +93,4 @@ const Habilidades = () => {
 };
 
 export default Habilidades;
+
