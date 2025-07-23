@@ -2,7 +2,9 @@ import React from 'react';
 import Header from './components/Header';
 import Formacion from './components/Formacion';
 import Habilidades from './components/Habilidades';
+import Contacto from './components/Contacto';
 import './index.css';
+
 function App() {
   return (
     <>
@@ -25,6 +27,12 @@ function App() {
         <section className="seccion">
           <div className="container">
             <Habilidades />
+          </div>
+        </section>
+
+        <section className="seccion">
+          <div className="container">
+            <Contacto />
           </div>
         </section>
       </div>
