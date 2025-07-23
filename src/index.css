@@ -51,3 +51,22 @@ h1, h2,h4 {
   margin-bottom: 2rem;
   border: none;
 }
+
+.custom-navbar {
+  background-color: rgba(80, 80, 80, 0.4); /* Gris translúcido */
+  backdrop-filter: blur(6px); /* efecto de difuminado */
+  z-index: 1000;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: none;
+}
+
