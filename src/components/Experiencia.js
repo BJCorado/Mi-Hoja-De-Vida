@@ -2,8 +2,8 @@ import React from 'react';
 
 const Experiencia = () => {
   return (
-    <section id="experiencia" className="seccion">
-      <div className="container">
+     <section className="section">
+      <div className="container text-center p-5">
         <h2 className="text-center mb-4">Experiencia Académica</h2>
 
         <div className="mb-4">
