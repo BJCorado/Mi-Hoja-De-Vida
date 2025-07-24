@@ -58,6 +58,7 @@ h1, h2,h4 {
   background-color: rgba(80, 80, 80, 0.4); /* Gris translúcido */
   backdrop-filter: blur(6px); /* efecto de difuminado */
   z-index: 1000;
+  height: 50px;
 }
 
 .fade-in-section {
