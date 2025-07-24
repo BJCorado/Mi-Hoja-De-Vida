@@ -16,7 +16,7 @@ const Experiencia = () => {
           <p className="fst-italic text-muted">
             Aprendí a implementar arquitectura por capas, usar ORM para persistencia de datos, y configurar sesiones seguras en una aplicación web moderna.
           </p>
-          <img src="/gestor de tareas.jpg" alt="Gestor De Tareas" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '12px' }}/>
+          <img src="/gestor de tareas.jpg" alt="Gestor De Tareas" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '24px' }}/>
         </div>
 
         <div className="mb-4">
@@ -29,8 +29,8 @@ const Experiencia = () => {
           <p className="fst-italic text-muted">
             Reforcé el uso de APIs REST seguras, separación de capas, e integración de librerías profesionales para documentación y generación de informes.
           </p>
-          <img src="/sistema nomina.jpg" alt="Sistema de Nómina" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '12px' }}/>
-          <img src="/sistema nomina 2.jpg" alt="Sistema de Nómina2" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '12px' }}/>
+          <img src="/sistema nomina.jpg" alt="Sistema de Nómina" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '24px' }}/>
+          <img src="/sistema nomina 2.jpg" alt="Sistema de Nómina2" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '24px' }}/>
         </div>
       </div>
     </section>
