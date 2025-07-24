@@ -30,6 +30,7 @@ const NavigationBar = () => {
           <Nav className="ms-auto">
             <Nav.Link href="#inicio" onClick={() => setExpanded(false)}>Inicio</Nav.Link>
             <Nav.Link href="#formacion" onClick={() => setExpanded(false)}>Formación Académica</Nav.Link>
+            <Nav.Link href="#experiencia" onClick={() => setExpanded(false)}>Experiencia Académica</Nav.Link>
             <Nav.Link href="#habilidades" onClick={() => setExpanded(false)}>Habilidades Técnicas</Nav.Link>
             <Nav.Link href="#contacto" onClick={() => setExpanded(false)}>Contacto</Nav.Link>
           </Nav>
