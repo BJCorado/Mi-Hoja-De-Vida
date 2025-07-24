@@ -13,7 +13,7 @@ const Experiencia = () => {
           <p>
             Desarrollo de un sistema para administrar tareas personales, con funcionalidades como creación, edición, autenticación de usuarios, prioridad de tareas y gestión por sesión.
           </p>
-          <p className="fst-italic text-muted">
+          <p className="h5" style={{ color: '#FFD700' }}>
             Aprendí a implementar arquitectura por capas, usar ORM para persistencia de datos, y configurar sesiones seguras en una aplicación web moderna.
           </p>
           <img src="/gestor de tareas.jpg" alt="Gestor De Tareas" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '24px' }}/>
@@ -26,7 +26,7 @@ const Experiencia = () => {
           <p>
             Sistema para la administración de nómina de empleados. Incluye gestión de empleados, departamentos, descuentos legales, generación de reportes en PDF, autenticación JWT y documentación de endpoints con Swagger.
           </p>
-          <p className="fst-italic text-muted">
+          <p className="h5" style={{ color: '#FFD700' }}>
             Reforcé el uso de APIs REST seguras, separación de capas, e integración de librerías profesionales para documentación y generación de informes.
           </p>
           <img src="/sistema nomina.jpg" alt="Sistema de Nómina" className="img-fluid proyecto-imagen mb-3" style={{ borderRadius: '24px' }}/>

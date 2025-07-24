@@ -13,7 +13,7 @@ const Header = () => {
         <FaMapMarkerAlt style={{ color: 'red' }} />
         <span>Ciudad Pedro De Alvarado,Moyuta,Jutiapa,Guatemala</span>
       </p>
-      <h2 className="h5 text-muted">OBJETIVO │ Desarrollador De Software Funcional</h2>
+      <h2 className="h5" style={{ color: '#FFD700' }}>OBJETIVO │ Desarrollador De Software Funcional</h2>
       <p className="lead">
         Actual Estudiante de 8º Ciclo de Ingeniería En Sistemas 
         De La Universidad Mariano Gálvez De Guatemala
