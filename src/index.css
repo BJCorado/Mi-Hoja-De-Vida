@@ -61,7 +61,7 @@ h1, h2,h4 {
 }
 
 .seccion:hover {
-  /* ✨ Más brillo al hacer hover */
+  /* Más brillo al hacer hover */
   box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
 }
 
