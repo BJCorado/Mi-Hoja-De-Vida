@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Formacion from './components/Formacion';
+import Experiencia from './components/Experiencia';
 import Habilidades from './components/Habilidades';
 import Contacto from './components/Contacto';
 import NavigationBar from './components/Navbar';
@@ -26,6 +27,14 @@ function App() {
         <section id="formacion" >
           <div className="container seccion">
             <Formacion />
+          </div>
+        </section>
+        </FadeInSection>
+
+        <FadeInSection>
+        <section id="experiencia">
+          <div className="container seccion">
+            <Experiencia />
           </div>
         </section>
         </FadeInSection>
