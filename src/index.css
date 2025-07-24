@@ -29,10 +29,11 @@ h1, h2,h4 {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('/public/fondoA.jpg') no-repeat center center/cover;
+  background: url('/public/fondoconstellation.png') no-repeat center center/cover;
+  background-size: cover;
   z-index: -1;
-  filter: blur(5px);
-  opacity: 0.6;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 /* Contenido con fondo semitransparente */
 .content-wrapper {
@@ -52,6 +53,16 @@ h1, h2,h4 {
   margin-bottom: 2rem;
   border: none;
   scroll-margin-top: 80px;
+
+   /* Efecto de brillo suave */
+  position: relative;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.5s ease;
+}
+
+.seccion:hover {
+  /* ✨ Más brillo al hacer hover */
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
 }
 
 .custom-navbar {
