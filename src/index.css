@@ -78,3 +78,11 @@ h1, h2,h4 {
   color: white;
   padding: 1.5rem;
 }
+
+.menu-colapsado {
+  background-color: rgba(80, 80, 80, 0.4); /* Gris translúcido */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 0.5rem;
+}

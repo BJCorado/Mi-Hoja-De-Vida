@@ -26,8 +26,8 @@ const NavigationBar = () => {
           <GiHamburgerMenu color="white" size={24} />
         </Navbar.Toggle>
 
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end menu-colapsado">
+          <Nav className="ms-auto text-end">
             <Nav.Link href="#inicio" onClick={() => setExpanded(false)}>Inicio</Nav.Link>
             <Nav.Link href="#formacion" onClick={() => setExpanded(false)}>Formación Académica</Nav.Link>
             <Nav.Link href="#experiencia" onClick={() => setExpanded(false)}>Experiencia Académica</Nav.Link>
