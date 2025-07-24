@@ -28,12 +28,12 @@ const NavigationBar = () => {
 
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end menu-colapsado">
           <Nav className="ms-auto text-end">
-            <Nav.Link href="#inicio" onClick={() => setExpanded(false)}>Inicio</Nav.Link>
-            <Nav.Link href="#formacion" onClick={() => setExpanded(false)}>Formación Académica</Nav.Link>
-            <Nav.Link href="#experiencia" onClick={() => setExpanded(false)}>Experiencia Académica</Nav.Link>
-            <Nav.Link href="#habilidades" onClick={() => setExpanded(false)}>Habilidades Técnicas</Nav.Link>
-            <Nav.Link href="#contacto" onClick={() => setExpanded(false)}>Contacto</Nav.Link>
-          </Nav>
+          <Nav.Link href="#inicio" onClick={() => setExpanded(false)} className="text-white nav-brillo">Inicio</Nav.Link>
+          <Nav.Link href="#formacion" onClick={() => setExpanded(false)} className="text-white nav-brillo">Formación Académica</Nav.Link>
+          <Nav.Link href="#experiencia" onClick={() => setExpanded(false)} className="text-white nav-brillo">Experiencia Académica</Nav.Link>
+          <Nav.Link href="#habilidades" onClick={() => setExpanded(false)} className="text-white nav-brillo">Habilidades Técnicas</Nav.Link>
+          <Nav.Link href="#contacto" onClick={() => setExpanded(false)} className="text-white nav-brillo">Contacto</Nav.Link>
+        </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

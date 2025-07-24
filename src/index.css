@@ -92,8 +92,16 @@ h1, h2,h4 {
 
 .menu-colapsado {
   background-color: rgba(80, 80, 80, 0.4); /* Gris translúcido */
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 16px;
   padding: 0.5rem;
+}
+
+.nav-brillo {
+  transition: text-shadow 0.3s ease;
+}
+
+.nav-brillo:hover {
+  text-shadow: 0 0 8px #ffffff, 0 0 12px #ffffff;
 }
