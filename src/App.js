@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Formacion from './components/Formacion';
 import Experiencia from './components/Experiencia';
@@ -55,6 +56,7 @@ function App() {
         </section>
         </FadeInSection>
       </div>
+      <Footer />
     </>
   );
 }
