@@ -40,8 +40,7 @@ Abre una nueva terminal en visual studio y ejecuta:
 git clone https://github.com/BJCorado/Mi-Hoja-De-Vida.git
 cd Mi-Hoja-De-Vida
 
-🚀 Instalar Dependencias
-Ejecuta:
+🚀 Instalar Dependencias ejecuta:
 
 ###  npm install
 
@@ -60,7 +59,7 @@ También puedes ver errores de lint en la consola.
 
 Lanza el ejecutor de pruebas en modo interactivo.\
 Consulta la sección sobre [cómo ejecutar pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
-
+---
 INFORMACION ADICIONAL
 
 🌐 Si quieres desplegar el Proyecto en Vercel: 
