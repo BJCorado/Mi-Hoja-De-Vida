@@ -26,7 +26,7 @@ Vercel – Plataforma de despliegue gratuito.
 Animaciones CSS – Transiciones, efectos de fade-in, blur y hover.
 
 ---
-📥 Instrucciones para Clonar y Ejecutar el Proyecto
+## 📥 Instrucciones para Clonar y Ejecutar el Proyecto
 
 🔧 Requisitos Previos
 Antes de comenzar, asegúrate de tener instalado en tu equipo:
@@ -35,19 +35,28 @@ Node.js (recomendado LTS)
 
 Git
 
-📦 Como clonar el Repositorio
+## 📦 Como clonar el Repositorio
+
 Abre una nueva terminal en visual studio y ejecuta:
 git clone https://github.com/BJCorado/Mi-Hoja-De-Vida.git
 cd Mi-Hoja-De-Vida
 
-🚀 Instalar Dependencias ejecuta:
 
-###  npm install
+## 🚀 Instalar Dependencias
 
-▶️ Como jecutar el Proyecto en Desarrollo
+En la terminal de visual studio ejecuta:
+
+```bash
+npm install
+```
+
+## ▶️ Como jecutar el Proyecto en Desarrollo
+
 En el directorio del proyecto ejecuta:
 
-###  npm start
+```bash
+npm start
+```
 
 Esto ejecuta la app en modo desarrollo.\
 Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
@@ -55,21 +64,10 @@ Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 La página se recargará cuando realices cambios.\
 También puedes ver errores de lint en la consola.
 
-###  npm test
+```bash
+npm test
+```
 
 Lanza el ejecutor de pruebas en modo interactivo.\
+
 Consulta la sección sobre [cómo ejecutar pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
----
-INFORMACION ADICIONAL
-
-🌐 Si quieres desplegar el Proyecto en Vercel: 
-
-Crea una cuenta en https://vercel.com/
-
-Importa tu repositorio desde GitHub.
-
-Vercel detectará automáticamente que es una app de React.
-
-Haz clic en Deploy y espera unos segundos.
-
-¡Tu sitio estará publicado con un dominio como https://mi-hoja-de-vida.vercel.app!
