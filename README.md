@@ -72,3 +72,27 @@ npm test
 Lanza el ejecutor de pruebas en modo interactivo.\
 
 Consulta la sección sobre [cómo ejecutar pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
+
+---
+## 🌐 Publicación del proyecto en Vercel
+Este proyecto está desplegado gratuitamente usando Vercel.
+
+¿Cómo publicarlo tú también?
+Sube tu proyecto a GitHub.
+
+Entra a https://vercel.com y crea una cuenta.
+
+Importa tu repositorio desde GitHub.
+
+Vercel detectará automáticamente que usas Vite/React y lo desplegará (te dara la url de tu pagina).
+
+---
+## 👨‍💻 Autor
+Brayan Josué Corado Robles
+📍 Ciudad Pedro De Alvarado, Moyuta, Jutiapa, Guatemala
+
+---
+## 📌 Notas adicionales
+Este proyecto fue desarrollado como parte de una tarea académica.
+
+Incluye animaciones, responsive design y efectos visuales (blur, glassmorphism, etc.).
