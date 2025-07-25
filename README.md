@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 📄 Mi Hoja de Vida — React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue generado con [Create React App](https://github.com/facebook/create-react-app) y está diseñado para presentar mi hoja de vida profesional de forma moderna e interactiva.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🚀 Tecnologías Utilizadas
 
-### `npm start`
+React.js – Biblioteca principal para la interfaz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create React App – Herramienta para crear el proyecto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Bootstrap 5 – Componentes de UI responsivos.
 
-### `npm test`
+Bootstrap 5 – Estilos y estructura general del diseño.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Icons – Íconos vectoriales para redes sociales y secciones.
 
-### `npm run build`
+HTML5 & CSS3 – Estructura base y estilos personalizados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+JavaScript (ES6+) – Lógica y manipulación de componentes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Git & GitHub – Control de versiones y repositorio remoto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Vercel – Plataforma de despliegue gratuito.
 
-### `npm run eject`
+Animaciones CSS – Transiciones, efectos de fade-in, blur y hover.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
+📥 Instrucciones para Clonar y Ejecutar el Proyecto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔧 Requisitos Previos
+Antes de comenzar, asegúrate de tener instalado en tu equipo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Node.js (recomendado LTS)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Git
 
-## Learn More
+📦 Como clonar el Repositorio
+Abre una nueva terminal en visual studio y ejecuta:
+git clone https://github.com/BJCorado/Mi-Hoja-De-Vida.git
+cd Mi-Hoja-De-Vida
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚀 Instalar Dependencias
+Ejecuta:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+###  npm install
 
-### Code Splitting
+▶️ Como jecutar el Proyecto en Desarrollo
+En el directorio del proyecto ejecuta:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+###  npm start
 
-### Analyzing the Bundle Size
+Esto ejecuta la app en modo desarrollo.\
+Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+La página se recargará cuando realices cambios.\
+También puedes ver errores de lint en la consola.
 
-### Making a Progressive Web App
+###  npm test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Lanza el ejecutor de pruebas en modo interactivo.\
+Consulta la sección sobre [cómo ejecutar pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
 
-### Advanced Configuration
+INFORMACION ADICIONAL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🌐 Si quieres desplegar el Proyecto en Vercel: 
 
-### Deployment
+Crea una cuenta en https://vercel.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Importa tu repositorio desde GitHub.
 
-### `npm run build` fails to minify
+Vercel detectará automáticamente que es una app de React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Haz clic en Deploy y espera unos segundos.
+
+¡Tu sitio estará publicado con un dominio como https://mi-hoja-de-vida.vercel.app!
