@@ -38,9 +38,10 @@ Git
 ## 📦 Como clonar el Repositorio
 
 Abre una nueva terminal en visual studio y ejecuta:
+```bash
 git clone https://github.com/BJCorado/Mi-Hoja-De-Vida.git
 cd Mi-Hoja-De-Vida
-
+```
 
 ## 🚀 Instalar Dependencias
 
